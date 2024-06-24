@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    
+    background-color: #c5ebd6;
+    margin: 0;
+    
+}
+header{
+    background-image: linear-gradient(to bottom, #3ddc84,  #063d1e);
+    padding: 40px;
+    margin: 0px;
+    color: white;text-align: center;
+    font-family: bebas neue, cursive;
+
+}
+
+nav{
+  background-color: #063d1e;
+  font-family: bebas neue, cursive;
+}
+
+nav > a{
+    
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    
+
+
+}
+
+nav > a:hover{
+    background-color: white;
+    color: red;
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 7px 3px 6px 1px rgba(0, 0, 0, 0.185);
+
+
+}
+article{
+    padding: 10px;
+    max-width: 700px;
+    
+}
+article > h1{
+    font-family: idroid;
+    color: #056b33;
+    font-size: 30px;
+
+}
+article > h2{
+    font-family: idroid;
+    color: #056b33;
+    background-image: linear-gradient(to right, #c5ebd6, white);
+    padding: 5px;
+}
+
+article > p{
+    text-indent: 20px;
+    
+}
+
+article > img{
+    text-align: center;
+    width: 780px;
+    display: block;
+    margin: auto;
+}
+
+article > .android-foto{
+    max-width: 300px;
+   
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
+
+aside{
+    background-color:  #c5ebd6;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+aside > h3{
+    background-color: #056b33;
+    color: white;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px 15px 0px  0px ;
+}
+
+aside > ul{
+    display: inline-block;
+    
+}
+aside > p{
+    padding: 5px;
+}
+.lis2 > li{
+    display: flex;
+    padding-left: 100px;
+}
+
+
+footer{
+    background-color: #063d1e;
+    color: white;
+    margin: 0;
+}
+
+footer > p{
+    padding: 50px;
+    text-align: center;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de responsividade</title>
+    <style>
+        body{
+            background-color: grey;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            min-width: 250px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img{
+            width: 100%; /*em relação ao pai (aparentemente)*/
+        }
+        /*se vc diminuir a tela e aparecer uma rolagem lateral, é porque seu site não está responsivo... por isso determinamos tamanho max e min*/
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod vero quia necessitatibus excepturi asperiores nemo dolorum in ducimus, cupiditate vel nesciunt sint nisi molestiae explicabo facilis. Modi, quisquam? Repellendus, est?Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolorum repellendus dolore doloribus. Repellat voluptate laborum, praesentium temporibus veritatis libero eum? Pariatur, fugit et. Ipsam, laudantium. Possimus saepe eaque reprehenderit!</p>
+        <picture>
+            <source media="(max-width: 500px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="irina blok">
+        </picture><!--n posso esquecer essa porra-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, reprehenderit ducimus voluptatem, similique ex libero obcaecati voluptas soluta optio velit voluptatum exercitationem quod quam nostrum dolorum? Cumque recusandae natu Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto ratione, in omnis repellendus suscipit excepturi quae aut veniam incidunt nostrum necessitatibus quidem, quisquam rerum consequuntur commodi rem, recusandae iste dolores!</p>
+    </main>
+    
+</body>
+</html>

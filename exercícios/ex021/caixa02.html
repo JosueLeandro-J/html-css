@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav{
+            background-color: rgb(146, 145, 145);
+            padding: 3px;
+            box-shadow: 5px 7px 5px 1px rgba(0, 0, 0, 0.377);
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 0px 30px 0px 0px;
+        }
+        nav > a:hover{
+            background-color: white;
+            color: red;
+        }
+
+       
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 25px 10px;     /*posso mexer nas bordas de forma individual*/ /*posso colocar apenas 2 valores também*/
+            box-shadow: 7px 7px 18px 0px rgba(0, 0, 0, 0.466);
+        }
+        
+        article{
+            background-color: lightgray;
+            padding: 5px;
+            
+
+        }
+       
+        article > aside{
+            background-color: rgb(146, 145, 145);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+     
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, totam fugit ea ex ratione
+                    consequatur aperiam expedita quia! Assumenda nulla incidunt porro iure! Vitae sequi a consequatur
+                    delectus ex temporibus!</p>
+                <aside>
+                    <p>Artigo escrito por Josué Leandro</p>
+                </aside>
+
+
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por JoDev</p>
+
+    </footer>
+    <div id="bola"></div>
+
+</body>
+
+</html>

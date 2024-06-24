@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Fontes</title>
+    <style>
+        body{
+            font-family:  Arial, Helvetica, sans-serif;/*coloco entre aspas as fontes que forem mais de uma palavra*/
+
+
+            /*
+            medidas absolutas
+            cm mm in(polegada) px pt pc
+            
+            medidas relativas
+            em(relativa ao tamanho atual da fonte)   ex(relativa a altura x da fonte)  rem vw vh %*/
+
+            /*recomendado usar cm e em*/
+
+            /*16px geralmente = 1em*/
+            font-size: 1em;
+            font-weight: lighter; /*peso da fonte*/
+            /*lighter normal bold bolder*/
+            /*tem numérica de 100-900*/
+
+            font-style: italic;
+            text-decoration: line-through;
+        }
+
+        h1{
+           /*font-family: 'Courier New', Courier, monospace;
+            font-weight: 900;
+            font-size: 3em;
+            font-style: normal;*/
+
+            /*shorthand font (simplificar as linhas de cima)
+            - font-style -> font-weight -> font-size -> font-family*/
+
+            font: normal 900 3em Arial;
+        }
+
+        h2{
+            font:bold 2em helvetica;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ex impedit magni reiciendis non accusantium placeat dignissimos sapiente illum. Eligendi ipsum fugit rerum commodi amet enim obcaecati veritatis iure dicta.Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ex impedit magni reiciendis non accusantium placeat dignissimos sapiente illum. Eligendi ipsum fugit rerum commodi amet enim obcaecati veritatis iure dicta</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto fuga dolores incidunt doloribus maxime veniam eveniet nisi nobis officiis repellendus quos reprehenderit, at perferendis asperiores, mollitia exercitationem earum adipisci.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cum, enim sint adipisci consectetur voluptatem iusto id explicabo ducimus quas consequatur alias corrupti atque. Repellendus esse architecto tempore cumque. Ullam?</p>
+    
+</body>
+</html>
