@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 350px;
+            border-collapse: collapse;/*separate = esse é o padrão, para darmos o aspecto de tabela tirando aquele espaço entre as linhas usaremos o collapse*/
+        
+        }
+        tr.linha{
+            background-color: rgba(115, 158, 250, 0.774);
+        }
+        td.dado:hover{
+            background-color: red;
+            
+
+        }
+        td{
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
+
+    <table>
+        <tr><!--preimeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td class="dado">C1</td>
+        </tr>
+        <tr class="linha"> <!--segunda linha-->
+            <td>A2</td>
+            <td>B2</td>
+            <td class="dado">C2</td>
+        </tr>
+        <tr><!--terceira linha-->
+            <td>A3</td>
+            <td>B3</td>
+            <td class="dado">C3</td>
+        </tr>
+        <tr class="linha"><!--quarta linha-->
+            <td>A4</td>
+            <td>B4</td>
+            <td class="dado">C4</td>
+        </tr>
+    </table>
     
 </body>
 </html>
